@@ -18,3 +18,9 @@ var test = arr.map(function(val){
 })
 console.log(test)
 
+var ans = arr.filter(function(val){
+    if(val >= 3) { return true;}  
+    else return false;
+
+})
+console.log(ans)
