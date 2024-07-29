@@ -11,3 +11,10 @@ function vunte(item){
     sum = item +1;
     console.log(sum)
 }
+
+var test = arr.map(function(val){
+    return val*4;
+   
+})
+console.log(test)
+
