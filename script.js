@@ -24,3 +24,9 @@ var ans = arr.filter(function(val){
 
 })
 console.log(ans)
+
+var check = arr.find(function(val){
+    if(val==2){return true}
+    else return false
+})
+console.log(check)
